@@ -1,5 +1,6 @@
 # GenAIEval
 Evaluation, benchmark, and scorecard, targeting for performance on throughput and latency, accuracy on popular evaluation harness, safety, and hallucination
+## hi pranav this a note for you on how to run it just install all the dependencies as shown in the originally readme then run the front end and backend in the evals/evaluation/lm_evaluation_harness/examples branch and you are done if you any issues feel free to call me :)
 
 ## Installation
 
