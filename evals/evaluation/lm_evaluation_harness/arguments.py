@@ -195,6 +195,7 @@ def setup_parser() -> argparse.ArgumentParser:
     parser.add_argument(
         "--trust_remote_code",
         action="store_true",
+        default=True,
         help="Sets trust_remote_code to True to execute code to create HF Datasets from the Hub",
     )
     check_argument_types(parser)
@@ -229,7 +230,7 @@ class LMEvalParser:
         wandb_args="",
         predict_only=False,
         seed=[0, 1234, 1234],
-        trust_remote_code=False,
+        trust_remote_code=True,
     ):
         self.model = model
         self.tasks = tasks
