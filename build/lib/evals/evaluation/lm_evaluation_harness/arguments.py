@@ -195,6 +195,7 @@ def setup_parser() -> argparse.ArgumentParser:
     parser.add_argument(
         "--trust_remote_code",
         action="store_true",
+        default=True,
         help="Sets trust_remote_code to True to execute code to create HF Datasets from the Hub",
     )
     check_argument_types(parser)
